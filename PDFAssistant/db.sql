@@ -1,0 +1,8 @@
+CREATE TABLE text_entries
+(
+    vector_id    INT  NOT NULL,
+    text_content TEXT NOT NULL,
+    created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (vector_id)
+);
