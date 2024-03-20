@@ -6,7 +6,6 @@ import torch
 import faiss
 import os
 from threading import Lock
-# 假设 MySQLDatabase 模块和类已经正确实现
 from mysql_database import MySQLDatabase
 from fastapi.responses import JSONResponse
 import numpy as np
@@ -73,9 +72,9 @@ def process_pdf_and_update_index(pdf_path):
                     vector_id = index.ntotal - 1
                     db.save_text(vector_id, text)
             faiss.write_index(index, index_path)
-            print("PDF processed and FAISS index is updated.")
+            print("已处理 PDF 并更新了 FAISS 索引。")
         else:
-            print("FAISS index already exists. Skipping PDF processing.")
+            print("FAISS 索引已存在。跳过 PDF 处理。")
 
 
 @app.on_event("startup")
