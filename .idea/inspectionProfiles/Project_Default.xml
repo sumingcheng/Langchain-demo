@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="26">
+            <item index="0" class="java.lang.String" itemvalue="gradio" />
+            <item index="1" class="java.lang.String" itemvalue="open-clip-torch" />
+            <item index="2" class="java.lang.String" itemvalue="huggingface-hub" />
+            <item index="3" class="java.lang.String" itemvalue="dadaptation" />
+            <item index="4" class="java.lang.String" itemvalue="voluptuous" />
+            <item index="5" class="java.lang.String" itemvalue="easygui" />
+            <item index="6" class="java.lang.String" itemvalue="ftfy" />
+            <item index="7" class="java.lang.String" itemvalue="lycoris_lora" />
+            <item index="8" class="java.lang.String" itemvalue="safetensors" />
+            <item index="9" class="java.lang.String" itemvalue="wandb" />
+            <item index="10" class="java.lang.String" itemvalue="accelerate" />
+            <item index="11" class="java.lang.String" itemvalue="transformers" />
+            <item index="12" class="java.lang.String" itemvalue="timm" />
+            <item index="13" class="java.lang.String" itemvalue="diffusers" />
+            <item index="14" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="15" class="java.lang.String" itemvalue="aiofiles" />
+            <item index="16" class="java.lang.String" itemvalue="rich" />
+            <item index="17" class="java.lang.String" itemvalue="toml" />
+            <item index="18" class="java.lang.String" itemvalue="altair" />
+            <item index="19" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="20" class="java.lang.String" itemvalue="prodigyopt" />
+            <item index="21" class="java.lang.String" itemvalue="fairscale" />
+            <item index="22" class="java.lang.String" itemvalue="tk" />
+            <item index="23" class="java.lang.String" itemvalue="invisible-watermark" />
+            <item index="24" class="java.lang.String" itemvalue="einops" />
+            <item index="25" class="java.lang.String" itemvalue="lion-pytorch" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
